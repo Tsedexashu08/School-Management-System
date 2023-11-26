@@ -1,0 +1,34 @@
+ create table students(
+    SID int primary key auto_increment,
+    Full_Name varchar(30),
+     Age int,
+     Gender varchar(10),
+     Grade int,
+     Address varchar(20),
+     Person_responsible varchar(30),
+     Relation varchar(15),
+     Phone_no. varchar(15));
+
+ create table teachers(
+    Full_Name varchar(30),
+     Age int,
+     Gender varchar(10),
+     Grade_level int,
+     `Experience(in years)` int,
+     Profesion varchar(15),
+     salary int,
+     Phone_no. varchar(15));
+
+create table results(
+     Name varchar(30),
+     Grade varchar(20),
+     Geography int,
+     History int,
+     English int,
+     Maths int,
+     Physics int,
+     Chemistry int,
+     Biology int,
+     HPE int,
+     Conduct varchar(20),
+     Average float);
